@@ -1,0 +1,25 @@
+{
+  "name": "simple-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "prisma generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "prisma": "3.5.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@prisma/client": "3.5.0",
+    "graphql": "^15.5.3",
+    "nexus": "^1.1.0",
+    "nexus-prisma": "^0.34.0"
+  }
+}
